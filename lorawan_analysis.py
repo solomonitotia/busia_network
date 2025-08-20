@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 
 # Page configuration
 st.set_page_config(
-    page_title="LoRaWAN Network Analyzer Pro",
+    page_title="LoRaWAN Network",
     page_icon="📡",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -484,7 +484,7 @@ def create_network_map(df, selected_device=None):
 # Main application
 def main():
     # Professional header
-    st.markdown(f'<h1 class="main-header">📡 LoRaWAN Network Analyzer Pro</h1>', unsafe_allow_html=True)
+    st.markdown(f'<h1 class="main-header">📡 LoRaWAN Network Analyzer</h1>', unsafe_allow_html=True)
     
     # Sidebar
     with st.sidebar:
